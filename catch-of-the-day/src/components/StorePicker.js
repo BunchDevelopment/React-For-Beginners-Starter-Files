@@ -7,7 +7,7 @@ class StorePicker extends React.Component {
   goToStore = event => {
     event.preventDefault();
     // Grabs input from form
-    const storeName = this.myInput.current.valuegit a;
+    const storeName = this.myInput.current.value;
     console.log(storeName);
     //updates URL
     this.props.history.push(`/store/${storeName}`);
